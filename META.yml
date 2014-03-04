@@ -24,4 +24,4 @@ requires:
   namespace::autoclean: '0'
 resources:
   repository: git://github.com/genoo/GenOOx-Sam-BWA.git
-version: 0.0.1
+version: 0.0.2
