@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Module for reading SAM files generated from BWA aligner",
+  "ABSTRACT" => "GenOO framework extension to read SAM files created by the BWA aligner",
   "AUTHOR" => "Emmanouil \"Manolis\" Maragkakis <mns.marag\@gmail.com>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
@@ -33,7 +33,7 @@ my %WriteMakefileArgs = (
     "Test::Class::Moose::Role::AutoUse" => 0,
     "autodie" => 0
   },
-  "VERSION" => "0.0.2",
+  "VERSION" => "0.0.3",
   "test" => {
     "TESTS" => "t/*.t"
   }

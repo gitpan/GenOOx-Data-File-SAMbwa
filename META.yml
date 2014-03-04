@@ -1,5 +1,5 @@
 ---
-abstract: 'Module for reading SAM files generated from BWA aligner'
+abstract: 'GenOO framework extension to read SAM files created by the BWA aligner'
 author:
   - 'Emmanouil "Manolis" Maragkakis <mns.marag@gmail.com>'
 build_requires:
@@ -23,5 +23,7 @@ requires:
   Moose: '0'
   namespace::autoclean: '0'
 resources:
-  repository: git://github.com/genoo/GenOOx-Sam-BWA.git
-version: 0.0.2
+  bugtracker: https://github.com/genoo/GenOOx-Sam-BWA/issues
+  homepage: https://github.com/genoo/GenOOx-Sam-BWA
+  repository: https://github.com/genoo/GenOOx-Sam-BWA.git
+version: 0.0.3

@@ -37,7 +37,7 @@ GenOOx::Data::File::SAMbwa::Record - Represents a record of a SAM format file ge
 # Let the code begin...
 
 package GenOOx::Data::File::SAMbwa::Record;
-
+$GenOOx::Data::File::SAMbwa::Record::VERSION = '0.0.3';
 
 #######################################################################
 #######################   Load External modules   #####################
